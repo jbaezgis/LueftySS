@@ -1,0 +1,72 @@
+﻿@*<div class="alert alert-warning alert-dismissible fade show mb-0 py-1" role="alert">
+    <div class="container">
+        <div class="d-flex flex-row bd-highlight">
+            <div class="p-2 bd-highlight">
+                <img src="images/icon-plus.svg" alt="icon" height="25">
+            </div>
+            <div class="p-2 text-dark">
+                <strong>Our New Health & Safety Standards</strong><br />
+                We have increased safety measures and adapted services. Find out more here.
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>*@
+<div class="shadow-sm">
+    <div class="container px-0">
+        <nav class="navbar navbar-expand-lg navbar-light py-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="logo.svg" height="40" alt="Image" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item p-2">
+                            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">Home </NavLink>
+                        </li>
+                       
+                        @*<li class="nav-item dropdown p-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Our services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="nav-item">
+                                    <NavLink class="dropdown-item" href="city-to-city">Intercity rides</NavLink>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Chauffeur hailing</a></li>
+                                <li><a class="dropdown-item" href="#">Sprinter Class</a></li>
+                                <li><a class="dropdown-item" href="#">Airport transfers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown p-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Bussiness solutions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <NavLink class="dropdown-item" href="business">Corporations</NavLink>
+                                <li><a class="dropdown-item" href="#">Travel agencies</a></li>
+                                <li><a class="dropdown-item" href="#">Event services</a></li>
+                                <li><a class="dropdown-item" href="#">Strategic partnerships</a></li>
+                            </ul>
+                        </li>*@
+                        <li class="nav-item p-2">
+                            <NavLink class="nav-link" href="help">Help</NavLink>
+                        </li>
+                        <li class="nav-item p-2">
+                            <NavLink class="nav-link" href="counter"><span class="oi oi-globe"></span> English</NavLink>
+                        </li>
+                        <li class="nav-item bg-light p-2">
+                            <NavLink class="nav-link" href="fetchdata"><span class="oi oi-person"></span> Sign in</NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+@code {
+
+}
